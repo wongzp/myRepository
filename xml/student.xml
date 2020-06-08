@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<students xmlns="3117004789.gdut.edu.cn" xmlns:other="cshao.gdut.edu.cn">
+<students xmlns="3117004789.gdut.edu.cn"  
+		  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		  xsi:schemaLocation="3117004789.gdut.edu.cn student.xsd">
 	<student>
 		<sno>001</sno>
 		<name>张三</name>
