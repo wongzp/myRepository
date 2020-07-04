@@ -71,7 +71,9 @@ delete：删除
 ###分支合并
 在目录下新建一个branchtest.txt文件用以测试。切换到shiyan--createBranch分支，提交该文件。
 
-然后点击merge————Local merge————选择上一级分支/主干
+然后点击merge————Local merge————选择合并的分支/主干
+
+注意：在合并前，一定要把更改的文件都提交了才可以进行合并，否则会报错。
 
 ##增加远程
 在本地连接到github。首先需要自行在github注册账户https://github.com/。注册完成后按以下步骤
