@@ -31,6 +31,24 @@ windows 10 64位
 ![](./git-img/gitGui-3.png)
 
 ##增加文件
+在上面的Git GUI面板上已经标注了各部分区域的主要作用。
+
+第一步：在打开Git GUI的目录下创建一个test.txt，内容是：测试文本
+
+第二步：打开Git GUI或者在里面刷新一下，就可以看到如下图:左上方显示test.txt，右边可以看到test.txt的内容
+![](./git-img/commitFile-1.png)
+
+第三步：将test.txt拉到左下方Staged Changes区域里，或者点击test.txt前面的标签，就可以将test.txt放到staged changes里。
+
+注意：只有在Stagde Changes里的文件才会被提交
+
+第四步：在右下方的文本框输入本次提交的附加内容（通常为描述提交内容）
+
+第五步：点击旁边的commit
+![](./git-img/commitFile-2.png)
+
+可以在Repositiry----Visualize master History中看到相关提交内容
+![](./git-img/commitFile-3.png)
 
 ##提交文件到仓库
 
