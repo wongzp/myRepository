@@ -30,7 +30,7 @@ windows 10 64位
 点击Edit----options，在里面输入UserName和Email Address
 ![](./git-img/gitGui-3.png)
 
-##增加文件
+##增加文件并提交到本地仓库
 在上面的Git GUI面板上已经标注了各部分区域的主要作用。
 
 第一步：在打开Git GUI的目录下创建一个test.txt，内容是：测试文本
@@ -47,12 +47,27 @@ windows 10 64位
 第五步：点击旁边的commit
 ![](./git-img/commitFile-2.png)
 
-可以在Repositiry----Visualize master History中看到相关提交内容
+可以在Repositiry----Visualize master History中看到相关提交历史
 ![](./git-img/commitFile-3.png)
 
-##提交文件到仓库
+注意：原有文件更改后也是可以进行提交的，不是必须新创建的文件。
 
-##创建一个分支
+##分支操作
+###创建一个分支
+步骤：Branch----Create，输入新分支的名字，选择创建该分支的主干/支干，点击create。
+![](./git-img/createBranch-1.png)
+
+创建成功后在功能栏下方会显示当前分支的名字
+![](./git-img/createBranch-2.png)
+
+###删除、重命名、切换分支
+这些操作可以在Branch功能栏下轻易实现
+
+Checkout：切换分支，切换前要先将当前分支的文件全部提交了
+Rename：重命名
+delete：删除
+
+![](./git-img/createBranch-3.png)
 
 ##增加远程
 
