@@ -68,6 +68,8 @@ Rename：重命名
 delete：删除
 ![](./git-img/createBranch-3.png)
 
+###分支合并
+
 ##增加远程
 在本地连接到github。首先需要自行在github注册账户https://github.com/。注册完成后按以下步骤
 
@@ -88,11 +90,11 @@ delete：删除
 成功后会显示Succes
 ![](./git-img/githubLink-6.png)
 
+##上推
+添加了到github的连接后，点击remote————push————选择要上推的分支————上推成功
+![](./git-img/push-1.png)
 ##下拉
 
-##上推
-
 ##合并文件
-
 
 # 实验总结
