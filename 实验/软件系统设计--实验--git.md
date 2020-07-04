@@ -96,11 +96,12 @@ delete：删除
 ![](./git-img/githubLink-6.png)
 
 ##上推
-添加了到github的连接后，点击remote————push————选择要上推的分支————上推成功
-![](./git-img/push-1.png)
+添加了到github的连接后，点击右下方push————选择要上推的到github仓库————上推成功，中间可能还会弹出窗口需要登录到github，正常输入即可
+![](./git-img/push-3.png)
+![](./git-img/push-2.png)
 
 ##下拉
 
-##合并文件
+##合并
 
 # 实验总结
