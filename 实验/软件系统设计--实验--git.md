@@ -101,6 +101,7 @@ delete：删除
 ![](./git-img/push-2.png)
 
 ##下拉
+点击remote————fetch————选择连接的远程仓库————点击merge————local merge————可以看到有一个以远程仓库名开头的分支————选择merge————即可修改里面的内容
 
 ##合并
 
